@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?> 
+
+<!--DOCTYPE TEI SYSTEM "tei_all.dtd"-->
+
+<TEI xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <!-- Descrizione bibliografica del testo codificato -->
+        <fileDesc>
+        <!-- Titolo del testo codificato -->
+         <titleStmt><!-- (dichiarazione sul titolo) raggruppa le informazioni sul titolo di un'opera e sulle responsabilità del suo contenuto intellettuale.-->
+          <title>
+            La Rassegna Settimanale, Vol.1, Fascicolo 22: Sezioni in Versione Elettronica
+          </title>
+          <respStmt><!--(dichiarazione di responsabilità) fornisce una dichiarazione di responsabilità-->
+            <resp>Conversione TEI P5 svolta da</resp>
+            <name xml:id="mcont">Giuseppe Liberati</name>   
+          </respStmt>
+          <sponsor>Università di Pisa</sponsor>
+         </titleStmt>
+
+          <!-- Informazioni sulla pubblicazione e diffusione -->
+         <publicationStmt><!-- (dichiarazione sulla pubblicazione) raggruppa le informazioni riguardo la pubblicazione o la distribuzione di un documento elettronico o di altra natua.-->
+            <publisher>Università di Pisa</publisher>
+            <pubPlace>Pisa</pubPlace>
+            <date>2025</date>
+            <availability status="free">
+                <p>L'edizione digitale è consultabile liberamente su </p>
+                <p><ref target="https://github.com/gliberati974/giuseppeliberati/CTaa24-25">GitHub</ref></p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt><!-- Informazioni sulla serie in cui è inserita la codifica -->
+            <title>Edizione elettronica della rivista "La Rassegna Settimanale"</title>
+            <respStmt><!--Informazioni sul responsabile dell'esame-->
+                <resp>coordinata da</resp>
+                <name>Angelo Mario Del Grosso</name>
+            </respStmt>
+         </seriesStmt>
+
+         <notesStmt><!--Note informative-->
+            <note>La digitalizzazione e l'indicizzazione della Rassegna Settimanale è stata realizzata nell'ambito delle iniziative previste per il Centenario della morte di Leopoldo Franchetti</note>
+            <note>L'intera rivista digitale è consultabile all'indirizzo</note>
+            <note><ref target="https://rassegnasettimanale.animi.it">online</ref></note>
+         </notesStmt>
+
+         <!-- Descrizione della fonte dalla quale è tratto il testo codificato -->
+         <sourceDesc>
+                <biblStruct type="article">
+                    <analytic xml:id="ART_1">
+                        <title level="a">Lo scrutinio di lista</title>
+                        <textLang mainLang="it">Italiano</textLang>
+                    </analytic>
+                    <analytic xml:id="ART_2">
+                        
+                        <title level="a">Le dimostrazioni degli studenti di liceo</title>
+                        <textLang mainLang="it">Italiano</textLang>
+                    </analytic>
+                    
+                    <analytic xml:id="BIBL">
+                        <title level="a">Bibliografia (Statistica, Scienze Naturali)</title>
+                        <textLang mainLang="it">Italiano</textLang>
+                    </analytic>
+                    <analytic xml:id="NEWS">
+                        <title level="a">Notizie (1, 2)</title>
+                        <textLang mainLang="it">Italiano</textLang>
+                    </analytic>
+                    <monogr>
+                        <title level="j">La Rassegna Settimanale di Politica, Scienze, Lettere ed Arti</title>
+                        <textLang mainLang="it">Italiano</textLang>
+                        <respStmt>
+                            <resp>Fondata da</resp>
+                            <name>Leopoldo Franchetti</name>
+                            <name>Sydney Sonnino</name>
+                        </respStmt>
+                        <imprint>
+                         <pubPlace>Firenze</pubPlace>
+                         <publisher>Casa editrice Barbera</publisher>
+                         <date when="1878-05-26">26 maggio 1878</date>
+                        </imprint>
+                        <biblScope unit="volume">1</biblScope>
+                        <biblScope unit="issue">22</biblScope>
+                        <biblScope unit="page">405-406, 408-409, 422-423, 424</biblScope>
+                    </monogr>
+                </biblStruct>
+         </sourceDesc>
+        </fileDesc>
+
+        <!-- Informazioni sulla codifica -->
+        <encodingDesc>
+            <projectDesc>
+                <p>Il testo rispetta le <ref target="https://tei-c.org/release/doc/tei-p5-doc/en/html/index.html">linee guida TEI P5</ref> ed è stato realizzato per il corso di Codifica Di Testi dell'<orgName>Università di Pisa</orgName></p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Sono stati selezionati per la codifica due articoli, due entrate della sezione Bibliografia e due entrate della sezione Notizie, appartenenti allo stesso fascicolo.</p>
+            </samplingDecl>
+            <!-- Dichiarazione modalità di codifica -->
+            <editorialDecl> 
+                <correction status="high" method="markup"> 
+                    <p>Per la correzione di errori sono stati usati i tag <gi>sic</gi> e <gi>corr</gi></p>
+                </correction>
+                <normalization method="markup" source="https://www.treccani.it/">
+                    <p>Per le normalizzazioni sono stati usati i tag <gi>orig</gi> e <gi>reg</gi> e come fonte il vocabolario online della Treccani</p>
+                </normalization>
+                <hyphenation eol="none">
+                    <p>Tutte le lineette d'unione non sono state mantenute nell'edizione elettronica</p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+       </teiHeader>
+
+        <facsimile>
+
+        <!--ARTICOLO 1-->
+        <surface xml:id="p405" start="#pb405" n="1">
+
+            <graphic url='img/Vol1-1878-1-S1-F22_1.png' width='552.4px' height='797.4px' />
+            <zone ulx="76" uly="128" lrx="209" lry="140" xml:id="p405_title" corresp="#par405_title"/>
+            <zone ulx="23" uly="145" lrx="263" lry="45" xml:id="p405_p1" start="#p405_par1"/>
+            <zone ulx="23" uly="248" lrx="263" lry="337" xml:id="p405_p2" start="#p405_par2"/>
+            <zone ulx="23" uly="348" lrx="263" lry="555" xml:id="p405_p3" start="#p405_par3"/>
+            <zone ulx="19" uly="475" lrx="260" lry="550" xml:id="p405_p3_cb" start="#p405_par3_cb"/>
+            <zone ulx="17" uly="556" lrx="260" lry="605" xml:id="p405_p4" start="#p405_par4"/>
+            <zone ulx="17" uly="606" lrx="260" lry="612" xml:id="p405_p5" start="#p405_par5"/>
+            <zone ulx="17" uly="617" lrx="260" lry="749" xml:id="p405_p6" start="#p405_par6"/>
+            <zone ulx="272" uly="130" lrx="508" lry="323" xml:id="p405_p6" start="#p405_par6"/>
+            <zone ulx="268" uly="326" lrx="508" lry="424" xml:id="p405_p6" start="#p405_par6"/>
+            <zone ulx="268" uly="429" lrx="508" lry="538" xml:id="p405_p6" start="#p405_par6"/>
+            <zone ulx="268" uly="544" lrx="502" lry="714" xml:id="p405_p6" start="#p405_par6"/>
+            <zone ulx="264" uly="719" lrx="504" lry="748" xml:id="p405_p6" start="#p405_par6"/>
+            
+        </surface>
+        <surface xml:id="p406" start="#pb406" n="2">
+
+            <graphic url='img/Vol1-1878-1-S1-F22_2.png' width='551.4px' height='800.4px' />
+            <zone ulx="47" uly="56" lrx="290" lry="115"  xml:id="p406_p1" start="p406_par1"/>
+            <zone ulx="47" uly="120" lrx="290" lry="333" xml:id="p406_p2" start="p406_par2"/>
+            <zone ulx="47" uly="336" lrx="290" lry="477" xml:id="p406_p3" start="p406_par3"/>
+                
+        </surface>
+
+        <!--ARTICOLO 2-->
+        <surface xml:id="p408" start="#pb408" n="3">
+
+            <graphic url='img/Vol1-1878-1-S1-F22_3.png' width='548.4px' height='802.4px' />
+            <zone ulx="291" uly="538" lrx="532" lry="550" xml:id="p408_title" corresp="#par408_title"/>
+            <zone ulx="291" uly="552" lrx="532" lry="664" xml:id="p408_p1" start="#p408_par1"/>
+            <zone ulx="291" uly="667" lrx="532" lry="746" xml:id="p408_bibl" corresp="#puini78"/>
+            
+        </surface>
+        <surface xml:id="p409" start="#pb409" n="4">
+
+            <graphic url='img/Vol1-1878-1-S1-F22_4.png' width='550.4px' height='797.4px' />
+            <zone ulx="34" uly="63" lrx="273" lry="545" xml:id="p409_p1" start="#p409_par1" />
+            <zone ulx="30" uly="548" lrx="273" lry="681" xml:id="p409_p2" start="#p409_par2"/>
+            <zone ulx="30" uly="682" lrx="273" lry="752" xml:id="p409_p3" start="#p409_par3"/>
+            <zone ulx="281" uly="61" lrx="520" lry="92" xml:id="p409_p4" start="#p409_par4"/>
+            
+        </surface>
+
+        <!-- BIBLIOGRAFIA E NOTIZIE-->
+        <surface xml:id="p422" start="#pb422" n="8">
+
+            <graphic url='img/Vol1-1878-1-S1-F22_5.png' width='546.4px' height='791.4px' />
+            <zone ulx="380" uly="502" lrx="428" lry="509" xml:id="p422_title" corresp="#pag422_title"/>
+            <zone ulx="283" uly="512" lrx="522" lry="541" xml:id="p422_bibl" corresp="#pag422_bibl"/>
+            <zone ulx="283" uly="544" lrx="522" lry="562" xml:id="p422_p1" start="#p422_par1"/>
+            <zone ulx="283" uly="566" lrx="522" lry="586" xml:id="p422_p2" start="#p422_par2"/>
+            <zone ulx="283" uly="589" lrx="522" lry="742" xml:id="p422_p2_cb" start="#p422_par2_cb"/>
+            
+        </surface>
+        <surface xml:id="p423" start="#pb423" n="9">
+
+            <graphic url='img/Vol1-1878-1-S1-F22_6.png' width='552.4px' height='785.4px' />
+            <zone ulx="34" uly="55" lrx="274" lry="75" xml:id="p423_p1" start="#p423_p1"/>
+            <zone ulx="34" uly="77" lrx="274" lry="228" xml:id="p423_p2" start="#p423_p2"/>
+            <zone ulx="34" uly="231" lrx="274" lry="310" xml:id="p423_p3" start="#p423_p3"/>
+            <zone ulx="34" uly="314" lrx="274" lry="442" xml:id="p423_p4" start="#p423_p4"/>
+            <zone ulx="34" uly="447" lrx="274" lry="545" xml:id="p423_title" corresp="#"/>
+            <zone ulx="34" uly="548" lrx="274" lry="598" xml:id="p423_n1" start="#p423_nws1"/>
+            <zone ulx="34" uly="599" lrx="274" lry="637" xml:id="p423_n2" start="#p423_nws2"/>
+            <zone ulx="117" uly="647" lrx="194" lry="655" xml:id="p423_n2" start="#p423_nws2"/>
+            <zone ulx="34" uly="658" lrx="274" lry="678" xml:id="p423_n2" start="#p423_nws2"/>
+            <zone ulx="34" uly="682" lrx="274" lry="743" xml:id="p423_n2" start="#p423_nws2"/>
+            <zone ulx="281" uly="54" lrx="523" lry="145" xml:id="p423_n2" start="#p423_nws2"/>
+            <zone ulx="281" uly="148" lrx="523" lry="278" xml:id="p423_n2" start="#p423_nws2"/>
+            <zone ulx="281" uly="281" lrx="523" lry="411" xml:id="p423_n2" start="#p423_nws2"/>
+            <zone ulx="281" uly="415" lrx="523" lry="473" xml:id="p423_n2" start="#p423_nws2"/>
+            <zone ulx="281" uly="476" lrx="523" lry="595" xml:id="p423_n2" start="#p423_nws2"/>
+            
+        </surface>
+        <surface xml:id="p424" start="#pb424" n="9">
+
+            <graphic url='img/Vol1-1878-1-S1-F22_7.png' width='451.4px' height='652.4px' />
+            <zone ulx="234" uly="353" lrx="435" lry="373" xml:id="p424_p1" start="#p424_p1"/>
+            <zone ulx="234" uly="520" lrx="432" lry="578" xml:id="p424_p2" start="#p424_p2"/>
+            
+            
+        </surface>
+       </facsimile>
+        
+       <text>
+        <body>
+            <div type="journal" org="composite">
+
+                <!-- ARTICOLO 1 -->
+                <div type="article" n="1" xml:lang="it" source="#ART_1">
+                        <pb n="1" facs="#p405" xml:id="pb405" />
+                            <cb xml:id="c1_405" n="1" corresp="#pb405"/>
+                            <head rend="align(center) case(allcaps)" facs="#p405_title" xml:id="par405_title" corresp="#c1_405">
+                                <lb />Lo scrutinio di lista
+                            </head>
+                            <ab facs="#p405_p1" xml:id="p405_par1" corresp="#c1_405">
+
+                                <lb />Ogni volta che si è trattato di una riforma elettorale
+                                <lb />e se ne è parlato continuamente in <name type="org" ref="#CON">Consiglio dei Ministri</name>
+                                <lb />dal <date>18 marzo 1876</date> fino ad ora, è spuntata fuori la proposta
+                                <lb />di unire ad uno allargamento del suffragio sua fortuna
+                                <lb />qualunque di votazione per scrutinio di lista. Ora si è parlato di scrutinio di lista 
+                                <lb />per provincia (<num type="cardinal">69</name> <name type="org" ref="#COL">collegi</name>), ora per circondario (<num type="cardinal">208</name> <name type="org" ref="#COL">collegi</name>), ora per circoscrizioni speciali di sei
+                                <lb />deputati sopra circa 300,000 abitanti (circa <num type="cardinal">90</name> <name type="org" ref="#COL">collegi</name>); ma sotto apparenza più o meno seduttrice
+                                <lb />tutte queste forme presentano alcuni caratteri fondamentali in comune. 
+
+                            </ab>
+
+                            <ab facs="#p405_p2" xml:id="p405_par2" corresp="#c1_405">  
+                                
+                                <lb />Esaminiamo brevemente quali sono in pratica i risultati benefici che si possano sperare da una riforma simile
+                                <lb />in <name type="country" ref="#ITA">Italia</name> e quali gli inconvenienti da parentare. 
+                                <lb />Avvertiamo che qui non discutiamo per la questione della opportunità dell'allargamento del suffragio,
+                                <lb />ma facendo narrazione da quella, vogliamo esaminare partitamente l'altra dello scrutinio
+                                <lb />di lista, tanto nel caso che il suffragio restasse, quanto in quello in cui venisse
+                                <lb />concesso a un maggior numero di cittadini o magari a tutti.
+
+                             </ab>
+
+                             <ab facs="#p405_p3" xml:id="p405_par3" corresp="#c1_405">   
+                                 
+                                <lb />E scendendo a parlare dei vantaggi, non esitiamo ad affermare che la ragione precipita per cui lo scrutinio di lista
+                                <lb />trova parecchi fautori nel <name type="org" ref="#PAR">Parlamento</name> o la speranza
+                                <lb />che nutrono moltissimi <name type="role">deputati</name> oppressi dalla eccessiva cordialità delle loro
+                                <lb />relazioni coi propri elettori, che mediante l'allargamento dei confini di ogni <name type="org" ref="#COL">collegio</name>, 
+                                <lb />e il rallentamento dei rapporti tra l'elettore e il suo <name type="role">rappresentante</name>, essi possano
+                                <lb />dipendere meno dall'arbitrio o dai capricci di singoli elettori intinenti, e
+                                <lb />possano quindi impunemente occuparsi meno presso il <name type="org" ref="#GOV">Governo</name> 
+                                <lb />centrale, delle faccende di quei loro dilettissimi amici. Ciò quanto ai <name type="role">deputati</name>
+                                <lb />spiccioli, a quelli cioè che non si atteggiano ancora a <name type="role">capi-partito</name>.
+
+                             </ab> 
+
+                            <ab facs="#p405_p4" xml:id="p405_par4" corresp="#c1_405">   
+
+                                <lb />Questi ultimi invece, quando essi abbiano o credano di avere una vera importanza locale,
+                                <lb />sia regionale sia provinciale, o quando essi siano i <name type="role">capi</name> di qualche gruppo che
+                                <lb />spadroneggia in una delle <num type="cardinal">60</name> <name type="org" ref="#DEP">deputazioni</name> provinciali, veggono nello scrutinio di lista
+                                <lb />il mezzo di dominare despoticamente il loro gruppo e la loro provincia, con lo 
+                                <lb />sradicare dalla rappresentanza di questa le male erbe degli spiriti indipendenti
+                                <lb />e delle individualità isolate.
+
+                            </ab>
+
+                            <ab facs="#p405_p5" xml:id="p405_par5" corresp="#c1_405">   
+                                
+                                 <lb/>Siccome però tutti questi motivi non si potrebbero esporre così
+                                <lb />crudamente senza <distinct type="archaic"><orig>maravigliare</orig><reg>meravigliare</reg></distinct>
+                                <lb />qualche ingenuo partigiano si dichiara che lo scrutinio di lista alzerebbe la disciplina
+                                <lb />di partito e che senza disciplina di <name type="org" ref="#PAR">partito</name> di <name type="org" ref="#GOV">Governo</name> parlamentare
+                                <lb />non è possibile.
+
+                             </ab>   
+
+                             <ab facs="#p405_p6" xml:id="p405_par6" corresp="#c1_405">
+                                
+                                <lb />Veniamo ora agli inconvenienti.
+
+                            </ab>
+
+                            <ab facs="#p405_p7" xml:id="p405_par7" corresp="#c1_405">   
+                                
+                                 
+                                <lb />Lo scutinio di lista con l'allargare i confini del <name type="org" ref="#COL">collegio</name> allarga il dispotismo della maggioranza e la sua finalità di escludere
+                                <lb /> da ogni rappresentasnza le minoranze. Mentre ora con il frazionamento dei <name type="org" ref="#COL">collegi</name>, queste 
+                                <lb />minoranze possono, concentrando le loro forze su qualche punto, riuscire a mandare un deputato
+                                <lb />in <name type="org" ref="#PAR">Parlamento</name> con lo scrutinio di lista invece, la
+                                <lb />maggioranza degli elettori sia della provincia, del circondario o della nuova circoscrizione
+                                <lb />elettiva, può, col votare compatta per tutti i nomi della propria lista, escludere affatto in 
+                                <lb />minoranza, per grossa che sia. Così accade ora, ne potrebbe essere altrimenti, nelle
+                                <lb />elezioni comunali, le quali, come tutti sanno, si fanno appunto con lo scrutinio di lista.
+
+                            </ab>
+
+                            <ab facs="#p405_p8" xml:id="p405_par8" corresp="#c1_405">   
+
+                                <lb />Intendiamoci. Noi ammettiamo bensì che si possa, in nome del diritto delle minoranze, e 
+                                <lb />come si è fatto in <name type="country" ref="#en">Inghilterra</name> per le città che eleggono <num type="cardinal">3</name> <name type="role">deputati</name>, riunire nell'interno
+                                <lb />di qualche grosso Comune, dove la divisione attuale a collegi è affatto fittizia e 
+                                <lb />artificiale, i diversi collegi in uno solo, col concedere all'elettore il diritto di votare
+                                <lb />per un numero di candidati minore di quello complessivo del collegio. Così nelle città
+                                <lb />maggiori si potrebbe, con vantaggio delle minoranze e in via di eccezione, riunire tre
+                                <lb />o anche cinque collegi in uno, dando ad ogni elettore il diritto di votare per <num type="cardinal">2O</name>
+                                <lb />rispettivamnente per <num type="cardinal">3</name> <name type="role">deputati</name>, e ciò per lasciare adito alle minoranze che raggiungono
+                                <lb />una certa cifra di aderenti, di ottenere un numero proporzionale di seggi alla
+                                <lb /><name type="org" ref="#CAM">Camera</name>. É questo il sistema detto di voto limitato,
+                                <lb />e che presenta parecchi vantaggi specialmente quando il numero dei deputati da eleggersi
+                                <lb />da ogni collegio è piccolo, ma da esso allo scrutinio di lista come si discorre di 
+                                <lb />introdurlo in <name type="country" ref="#it">Italia</name> vi corre la stessa differenza che dal si al no: l'uno tutela,
+                                <lb />l'altro soffoca le minoranze locali.
+
+                             </ab> 
+
+                             <ab facs="#p405_p9" xml:id="p405_par9" corresp="#c1_405">   
+                                 
+                                <lb />E riguardo alle conseguenze pratiche che lo scrutinio di lista avrebbe in <name type="place" ref="#it">Italia</name>, esse sarebbero molto probabilmente le seguenti: di rafforzare
+                                <lb />gli spiriti regionali, dividendo sempre più i partiti secondo la divisione delle varie
+                                <lb />regioni italiane; di <distinct type="archaic"><orig>afforzare</orig><reg>rafforzare</reg></distinct>
+                                <lb />l'attuale dispotismo <name type="org" ref="#DEP">deputazioni</name> provinciali, che rappresentano in  <name type="country" ref="#it">Italia</name>
+                                <lb />la quintessenza delle consorterie regionali; e finalmente di rallentare nei cittadini il 
+                                <lb />sentimento della loro partecipazione al governo della cosa pubblica e quindi della loro 
+                                <lb />responsabilità nel buono o cattivo andamento di quello.
+                                
+                            </ab>
+
+                            <ab facs="#p405_p10" xml:id="p405_par10" corresp="#c1_405"> 
+
+                                <lb />Ed invece lo scrutinio di lista tende a rafforzare lo spirito regionale, perchè mentre col sistema attuale del collegio
+                                <lb />ad unico rappresentante, le minute diversità di condizioni morali, topografiche ed 
+                                <lb />economiche da <name type="org" ref="#COM">Comune</name> a <name type="org" ref="#COM">Comune</name>, e la diversa distribuzione 
+                                <lb />delle influenze personali da luogo a luogo, rompono l'omogeneità delle rappresentanze
+                                <lb />regionali, con lo scrutinio di lista invece l'interesse di tutto intiero il nuovo <name type="org" ref="#COM">collegio</name>,
+                                <lb />il quale s'identficherebbe con l'interesse regionale come contrapposto a quello delle
+                                <lb />altre regioni della <name type="country" ref="#it">penisola</name>, determinerebbe la scelta di tutta quanta la deputazione
+                                <lb />di ogni lista.
+
+                            </ab>
+
+                            <ab facs="#p405_p11" xml:id="p405_par11" corresp="#c1_405"> 
+                                
+                                <lb />Una tra le nostre istituzioni amministrative che minaccia di divenire
+                                <lb />funesta al paese è quella delle Deputazioni provinciali, le quali così come sono ordinate
+                                <lb />esercitano ora un vero dispotismo locale, e sono la più pura espressione dello spirito
+                                <lb />di consorteria che domina in ogni parte d'<name type="country" ref="#it">Italia</name>.
+                                <lb />Per una delle tante anomalie delle nostre leggi, la tutela della <name type="org" ref="#DEP">Deputazione</name> provinciale
+                                <lb />sui <name type="org" ref="#DEP">Comuni</name>, ossia la facoltà che essa ha effettivammente di dominarli, in tutto e per
+                                <lb />tutto, aumenta legalmente nella misura appunto in cui, pel fatto della stessa amministrazione
+                                <lb />provinciale, aumentano le sovrimposte provinciali sulle tasse dirette. Ma di queste torneremo
+                                <lb />a parlare un'altra volta. Per ora basti accennare come lo scrutinio di lista diventerebbe
+                                <lb />arma efficacissima nelle mani della <name type="org" ref="#DEP">Deputazione</name> provinciale per spengere ogni benchè
+                                <lb />minima opposizione locale, onde la rappresentanza nazionale verrebbe ad essere un aggregato
+                                <lb />di piccoli gruppi, in se omogenei, costituiti dalle diverse consorterie locali.
+
+                            </ab>  
+
+                            <ab facs="#p405_p12" xml:id="p405_par12" corresp="#c1_405">   
+                                
+                                 
+                                <lb />E ciò anzichè portare a <name type="org" ref="#PAR">partiti</name> politici fortemente costituiti renderebbe ben più difficile ogni
+                                <lb />salda compagine tra i diversi elementi di un <name type="org" ref="#PAR">partito</name>, ed ogni composizione
+
+                            </ab> 
+
+                        <pb n="2" facs="#p406" xml:id="pb406" />
+                            <cb xml:id="c1_406" n="1" corresp="#pb406"/>
+                            <ab facs="#p406_p1" xml:id="p406_par1" corresp="#c1_406">
+                                 
+                                <lb />di questo sulla stregua delle grandi questioni di ordine politico, economico e morale. Cioè 
+                                <lb /><distinct type="archaic"><orig>invero</orig><reg>in verità</reg></distinct> sono meno 
+                                <lb />riducibili ad unità compatta tanti diversi gruppi tra loro distinti ma ognuno dei quali è 
+                                <lb />omogeneo nelle diverse sue parti che non un numero molto maggiore di individui isolati e 
+                                <lb />liberi nei loro movimenti.
+
+                            </ab>
+
+                            <ab facs="#p406_p2" xml:id="p406_par2" corresp="#c1_406">
+                                
+                                <lb />Noi dubitiamo assai che con lo scrutinio di lista si possa 
+                                <lb />ottenere l'intento vagheggiato da molti, di liberare il <name type="role">deputato</name> dalle mille raccomandazioni,
+                                <lb />dalle infinite sollecitazioni dei suoi elettori. Questo fatto dipende da ben altre cagioni;
+                                <lb />noi abbiamo già accennato un altra volta a diverse di esse e specialmente alla principale
+                                <lb />tra quella, alla graduale usurpazione cioè delle attribuzioni del potere esecutivo per parte 
+                                <lb />di quello legislativo. Finchè questo durerà, il <name type="role">deputato</name>, il quale ha da governare il suo
+                                <lb />collegio oltrechè rappresentarlo, non potrà mai liberarsi dal caso del doversi occupare
+                                <lb />di ogni singolo interesse individuale dei suoi elettori, e ciò tanto se questi eleggono lui
+                                <lb />solo, oppure insieme con lui altri <num type="cardinal">5</name> o più. Tutto al più i deputati gregari potrebbero sperare
+                                <lb />che mediante lo scrutinio di lista essi potrebbero non avere da obbedire che a uno solo tra
+                                <lb />loro, il quale si occuperebbe in conpenso del patrocinio degl'interessi di tutti gli elettori
+                                <lb />della <name type="org" ref="#CIRC">circoscrizione</name> elettorale. Ma dato pure ciò, gli elettori ricorrerebbero sempre a tutti
+                                <lb />i singoli <name type="role">deputati</name> del loro <name type="org" ref="#COL">collegio</name>, per farsi appoggiare presso il <name type="role">capo</name> del gruppo. E sarebbe
+                                <lb />il caso di ripetere: Dove andiamo?
+
+                            </ab>
+
+                            <ab facs="#p406_p3" xml:id="p406_par3" corresp="#c1_406">
+                                
+                                <lb />Ma c'è di più. Con lo scrutinio di lista, in qualunque delle 
+                                <lb />sue forme speciali, l'elettore il quale dove votare per una lista di nomi, in alcuni dei quali
+                                <lb />non può avere che una fiducia di seconda mano, perde ogni coscenza della sua azione diretta
+                                <lb />sul governo della cosa pubblica: il <name type="org" ref="#CORP">corpo elettorale</name> viene a considerare la 
+                                <lb /><name type="org" ref="#CAM">Camera</name> come una cosa distinta da se, come un potere cui 
+                                <lb />esso ha bensì dato origine ma con cui ha ben poco in comune. Onde con lo svolgersi del
+                                <lb />parlamentarismo ci riavvicineremmo al concetto del cesarismo e del governo arbitrario
+                                <lb />a base di plebiscito, secondo cui il principio cessa di essere una garanzia di libertà per mezzo 
+                                <lb />della rappresentanza dei governati per divenire invece la consacrazione del dispotismo con
+                                <lb />la elezione periodica del despota.
+                    
+                            </ab>
+
+                </div>
+ 
+                <!-- ARTICOLO 2 -->
+                <div type="article" n="2" xml:lang="it" source="#ART_2">
+                        <pb n="1" facs="#p408" xml:id="pb408" />
+                            <cb xml:id="c2_408" n="2" corresp="#pb408"/>
+                            <head rend="align(center) case(allcaps)" facs="#p405_title" xml:id="par408_title" corresp="#c1_408">
+                                <lb />Le dimostrazioni degli studenti di liceo.
+                            </head>
+                            <ab facs="#p408_p1" xml:id="p408_par1" corresp="#c2_408">  
+
+                               <lb />Il <name type="role">Ministro dell'Istruzione pubblica</name> intende concedere lunghezze nuove 
+                               <lb />per l'esame di licenza liceale. Il candidato che fallisce in sua
+                               <lb />materia, la quale non fosse il <language ident="lat">latino</language> o l'<language ident="ita">italiano</language>, ne 
+                               <lb />riguardasse gli studi da esso prescelti per la sua  carriera 
+                               <lb />professionale, verrebbo ammesso egualmente l'<name type="org" ref="#UNIVERSITA">Università</name>  
+                               <lb />salvo a ripeter la prova durante l'anno. Se il candidato
+                               <lb />fallisce in più d'una materia della licenza liceale, non sarebbe
+                               <lb />obbligato nè a rifare il corso, nè a ripetere tutti gli esami, 
+                               <lb />bensì gli basterebbe <distinct type="archaic"><origin>ripeter</origin><reg>ripetere</reg></distinct> l'esame in quelle materie soltanto, 
+                               <lb />nelle quali è caduto. Queste sembrano essere, in sostanza,
+                               <lb />le deliberazioni dell'<roleName>on</roleName>. <surname type="person" ref="#desanctis">De Sanctis</surname>.
+
+                            </ab>
+
+                             <ab facs="#p408_p2" xml:id="p408_par2" corresp="#c2_408">   
+
+                                <lb />Gli studenti di <name type="city" ref="#na">Napoli</name> sono andati in visibilio, hanno reclamato
+                                <lb />al <name type="role">Ministro</name> liberatore, è non poten ringraziar lui, hanno ringraziato
+                                <lb />la signora <surname type="person" ref="#desanctis">De Sanctis</surname> ed il <name type="role">Prefetto</name>. E perchè no, poveri giovani?
+                                <lb />Non sono essi della pasta medesima di quelli, che gridarono pochi anni fa:
+                                <lb />abbasso <name type="person" ref="#senofonte">Senofonte</name>! Se il <name type="role">Ministro</name> <distinct type="archaic"><origin>volea</origin><reg>voleva</reg></distinct> fare un passo di più e abolire
+                                <lb />del tutto l'esame di licenza liceale, gli avremmo veduti pellegrinare a
+                                <lb /><name type="city" ref="#ro">Roma</name> e salire in <name type="place" ref="#ca">Campidoglio</name> a ringraziare gli Dei.
+
+
+                            </ab> 
+
+                        <pb n="2" facs="#p409" xml:id="pb409" />
+                            <cb xml:id="c1_409" n="1" corresp="#pb409"/>
+                            <ab facs="#p409_p1" xml:id="p409_par1" corresp="#c1_409">
+
+                            <lb />Quanto a noi, diciamo schietto che queste deliberazioni
+                            <lb />dell'<choice><abbr>on.</abbr><expan>onorevole</expan></choice> <name type="person" ref="#desanctis">De Sanctis</name> non ci sembrano lodevoli. Chi ha 
+                            <lb />tenuto dietro alle lunghe e travagliose vicende dell'esame
+                            <lb />di licenza liceale, sa benissimo che, malgrado tutti i clamori,
+                            <lb />la severità e l'ampiezza di questo esame si vollero sempre
+                            <lb />meglio dirette a dare una sanzione seria e positiva
+                            <lb />a quell'insieme di regolazioni, in cui è riposta
+                            <lb />ogni speranza che sorga a poco a poco ed entri nel costume
+                            <lb />italiano quella soda coltura generale, che negli altri paesi
+                            <lb />civili fornisce così saldo fondamento al progresso
+                            <lb />scientifico, alle discipline speciali, ed alle 
+                            <lb />applicazioni varie dell'attività individuale.
+                            <lb />Questo concetto eccellente, ed al quale non vogliono
+                            <lb />ora esaminare se e quando risponda l'ordinamento
+                            <lb />della nostra istruzione secondaria, è rovesciato
+                            <lb />di colpo dalle disposizioni dell'<choice><abbr>on.</abbr><expan>onorevole</expan></choice> <name type="person" ref="#desanctis">De Sanctis</name>.
+                            <lb />Se l'attuale ordinamento dell'istruzione liceale non
+                            <lb />si ritiene adatto a fornire agli alunni una buona
+                            <lb /><distinct type="archaic"><origin>coltura</origin><reg>cultura</reg></distinct> generale, lo si modifichi, ma se nell'esame di 
+                            <lb />licenza liceale si ricomincia a distinguere materia
+                            <lb />da materia, se si ristabiliscono fra esse categorie
+                            <lb />di importanza diversa se (che è peggio ancora) si lascia
+                            <lb />arbitro l'alunno di giudicare quali materie importino di
+                            <lb />più alla professione cui vorrà dedicarsi, il concetto
+                            <lb />stesso della cultura generale, che si ebbe in animo
+                            <lb />di stabilire come avviamento indispensabile ad ogni
+                            <lb />disciplina o professione, sfuma completamente e si 
+                            <lb />ritorna a quello (che ci sembra di utilità molto dubbia)
+                            <lb />di spianar la via il più possibile ad assicurarci ogni anno
+                            <lb />non la miglior qualità, bensì la maggior quantità di 
+                            <lb />professionisti. Ciò sia detto in tesi generale. Quanto
+                            <lb />alle applicazioni, saremmo davero curiosi di sapere
+                            <lb />chi assicurerà al <name type="role">Ministro</name> la sincerità e la stabilità
+                            <lb />della vocazione dell'alunno, mentre è più che probabilmente
+                            <lb />che, con la smania che invade ora i padri di famiglia
+                            <lb />di presto addottorare i loro figli, gli studenti scelgano
+                            <lb />all'Università un ramo di studi diverso a seconda 
+                            <lb />dell'esame speciale in cui non riuscirono nella licenza
+                            <lb />liceale. E minimo sarà pure il profitto che trarrà
+                            <lb />dal primo anno d'<name type="org" ref="#UNIVERSITA">Università</name> l'alunno rigettato in 
+                            <lb />alcune materie dell'esame di licenza liceale, poichè 
+                            <lb />col pensiero fisso di dover rifare una parte di 
+                            <lb />di quell'esame, egli attenderà poco ai nuovi studi,
+                            <lb />poi quali il <name type="role">Ministro</name> ha voluto instricargli la via
+                            <lb />con tante condiscendenze. Quanto ai licei, la facoltà
+                            <lb />data ai giovani di ripeter l'esame nelle materie non
+                            <lb />non superate, senza rifare egualmente il corso scolastico,
+                            <lb />li riempirà nuovamente di uditori spigolanti qua e là ciò
+                            <lb />che fa al loro bisogno, con quanto vantaggio alla 
+                            <lb />disciplina, all'ordine degli studi ed al profitto degli
+                            <lb />alunni veri non è chi non veda.
+
+                        </ab> 
+
+                         <ab facs="#p409_p2" xml:id="p409_par2" corresp="#c1_409">
+
+                            <lb />Il <name type="role">Prefetto</name> di <name type="city" ref="#NA">Napoli</name>, nella risposta che ha dato ai 
+                            <lb />dimostranti, non sembra molto persuaso della bontà della 
+                            <lb />nuova disposizione ministeriale. Noi avremmo preferito di 
+                            <lb />sentirlo dichiarare a quei giovani, che una dimostrazione 
+                            <lb />di piazza, pro e contro il <name type="role">Ministro</name>, è una infrazione 
+                            <lb />alle discipline scolastiche non tollerabile nè da 
+                            <lb />lasciarsi impunita. Ma sappiamo che in Italia questo
+                            <lb />è pretender troppo. Tutto armonizza da cima a fondo, e
+                            <lb />come in alto bisogna destreggiarsi alla meglio per 
+                            <lb />per dispiacer meno che si può ora a questi ed ora a
+                            <lb />quelli, così non fanno male, se vengono, anche i 
+                            <lb />battezzati dei ragazzi delle scuole. Agli interessi 
+                            <lb />della cultura e dell'istruzione in <name type="country" ref="#it">Italia</name> pensino i 
+                            <lb />presidi e i professori chè la politica non lascia a un 
+                            <lb /><name type="role">Ministro</name> tempo ed agio per farlo.
+
+                        </ab> 
+
+                         <ab facs="#p409_p3" xml:id="p409_par3" corresp="#c1_409">    
+              
+                            <lb />Il <name type="org" ref="#CONSIGLIOSUPERIORE">Consiglio superiore</name> non ha approvato queste proposte
+                            <lb />dell'<choice><abbr>on.</abbr><expan>onorevole</expan></choice> <surname type="person" ref="#desanctis">De Sanctis</surname>, ma esso, si dice, è passato sopra
+                            <lb />con gran fermezza a tale disapprovazione. Era veramente
+                            <lb />desiderabile che l'<choice><abbr>on.</abbr><expan>onorevole</expan></choice> <name type="role">Ministro</name> avesse meritata tanta 
+                            <lb />di carattere a migliore occasione, e l'avesse spiegata
+                            <lb />maggiormente nel timido e complimentoso telegramma 
+                            <lb />riferito dai giornali, col quale par che abbia a titolo di
+
+                        </ab> 
+
+                         <ab facs="#p409_p4" xml:id="p409_par4" corresp="#c1_409">    
+               
+                            <lb />favore dagli studenti di liceo quella disciplina che egli
+                            <lb />per il suo ufficio ha dovere di esigere e d'imporre al
+                            <lb />bisogno colle pene scolastiche ch'egli ha autorità 
+                            <lb />d'infliggere.
+                    
+
+                <!--BIBLIOGRAFIA E NOTIZIE-->
+                <div type="bibliografia_notizie" org="uniform" sample="medial">
+                        <pb n="1" facs="#p422" xml:id="pb422"/>
+                            <cb xml:id="c1_422" n="1" corresp="#pb422"/>
+                            <div type="entrata_bibliografica" n="1" part="I" corresp="#c1_422">
+                                <head rend="align(center) case(allcaps)" facs="#p422_title" xml:id="pag422_title">
+                                    <lb />Statistica. 
+                                </head>
+                                <ab facs="#p422_bibl" xml:id="pag422_bibl">
+                                    <bibl xml:id="korust_bibl">
+                                        <lb />
+                                        <author rend="case(allcaps)">
+                                            <name ref="#korust">
+                                                <forename>Joseph</forename>
+                                                <surname>Korust</surname>
+                                            </name>
+                                        </author>
+                                        <title rend="italic">
+                                            Statistique internationale des grandes villes. Première section : mouvement de la population. 
+                                            
+                                        </title>.-
+                                        <pubPlace>Budapest</pubPlace>,
+                                        
+                                        <date when="1878">1876</date>
+
+                                        <title rend="italic">
+                                            statistique internationale des grandes villes, deuxième section, statistique des frances.
+                                            
+                                        </title>.-
+                                        <pubPlace>Budapest</pubPlace>,
+                                        
+                                        <date when="1878">1876</date>
+
+                                        <title rend="italic">
+                                            statistique internationale des banches d'emission, autriche hongrie, belgique, Pays Boa.
+                                            
+                                        </title>.-
+                                        <pubPlace>Rome</pubPlace>,
+                                        
+                                        <date when="1878">1876</date>
+                                    </bibl>
+                                </ab>
+                                <ab facs="#p422_p1" xml:id="p422,_par1">
+
+                                <lb />Queste tre pubblicazioni offrono i risultati di ricerche
+                                <lb />non peranno compiute, ma abbastanza ampie sopra fatti
+                                <lb />demografici ed economici che destarono in particolar modo
+                                <lb />l'attenzione del <name type="org" ref="#CONGRESSO">Congresso di statistica</name>, nelle sue più
+                                <lb />recenti sessioni, e furono eseguite per cura di 
+                                <lb />membri del <name type="org" ref="#COMITATO">Comitato</name> permanente del Congresso medesimo.
+                                <lb />Vengono appresso a due altri lavori di statistica
+                                <lb />internazionale comparata molto importanti: <name type="bibl" ref="#borg">l'Ètat de la 
+                                <lb />population</name>, compilato dal Borg (Svezia) e la 
+                                <lb /><name type="bibl" ref="#bodio">Statistique internationaledes Caissey depargne</name>,
+                                <lb />compilata dal Bodio; rispondono come questi, al disegno
+                                <lb />di dare un assetto razionale alla statistica
+                                <lb />comparata con l'indirizzo di ricerche uniformi ed 
+                                <lb />omogenee; e fanne prova di render possibili què 
+                                <lb />riscontri e quelle comparazioni, che mancano il più 
+                                <lb />delle volte di valore pratico per la diversità deuxième
+                                <lb />criteri a cui s'ispirano le ricerche o
+
+                            </ab> 
+
+                        <pb n="2" facs="#p423" xml:id="pb423" />
+                            <cb xml:id="c1_423" n="1" corresp="#pb423"/>
+                            <ab facs="#p423_p1" xml:id="p423_par1" corresp="#c1_423">
+
+                            <lb />pel diverso peso dè fatti che gli <name type="org" ref="#UFFICI">Uffici di statistica</name>
+                            <lb />investigano e registrano a proprio modo nè vari paesi.
+
+                        </ab> 
+
+                         <ab facs="#p423_p2" xml:id="p423_par2" corresp="#c1_423">   
+
+                                 <lb />Dire che in ognuno di questi lavori si troverà ampia
+                                 <lb />mèsse di notizie e di dati in vario modo proficui,
+                                 <lb />e che non potrebbero attingersi, nemmeno in proporzioni
+                                 <lb />più modeste, ad alcun'altra, è superfluo. Ma i lavori
+                                 <lb />di cui teniamo parola, possono meritare soltanto
+                                 <lb />il nome di tentativi degni d'incoraggiamento; essi 
+                                 <lb />sono ben lontani dal porgere l'esempio di una critica
+                                 <lb />comparativa paziente e condotta in tal guida da 
+                                 <lb />rendere possibile il parallelo delle condizioni d'un 
+                                 <lb />paese con quelle dell'altro; anzi coloro i quali
+                                 <lb />fecero a fidanza con queste più recenti prove della
+                                 <lb />statistica applicata, deplorevanno certamente che
+                                 <lb />il carattere monografico prevalga in questi studi;
+                                 <lb />imperocchè questa sia la confessione già aperta
+                                 <lb />degli ostacoli, onde le ricerche statistiche
+                                 <lb />trovano tuttora assiepato il proprio cammino.
+                                 
+                         </ab> 
+
+                         <ab facs="#p423_p3" xml:id="p423_par3" corresp="#c1_423">          
+
+                                <lb />Sarebbe, a cagion d'esempio, fatica sprecata il 
+                                <lb />confronare le condizioni degl'<name type="org" ref="#ISTITUTI">Istituti di emissione</name> 
+                                <lb />nei vari Stati di cui si raccolsero le notizie, o 
+                                <lb />le perturbazioni prodotte, in ciascuno di essi
+                                <lb />dalla circolazione cartacea. Ogni confronto vero
+                                <lb />e proprio fa assolutamente difetto; e ben si 
+                                <lb />comprende che questa lacuna così grave deriva
+                                <lb />dalla natura stessa dei fatti e dalla impossibilità
+                                <lb />di mettere in funzione elementi che debbono dirsi
+                                <lb />disparatissimi. 
+
+                         </ab> 
+
+                         <ab facs="#p423_p4" xml:id="p423_par4" corresp="#c1_423">
+
+                                <lb />In egual modo si può esaminare con qualche interesse
+                                <lb />il bilancio dei centri urbani delle maggiori
+                                <lb />città d'<name type="place" ref="#eu">Europa</name>,  e ricavarne la dimostrazione di
+                                <lb />tendenze che sono ugualmente apprezzate. Ma ognuno
+                                <lb />ognuno si avvede che mancano elementi precisi per
+                                <lb />portare un giudizio sicuro sopra questo nuovo 
+                                <lb />indirizzo delle finanze locali e sopra gli effetti
+                                <lb />che da esse derivano. Imperocchè le cifre son 
+                                <lb />ricavate dai bilanci preventivi e non corrispondono
+                                <lb />o corrispondono inegualmente alla finanza reale.
+                                <lb />E non solo dei bilanci ma della consistenza dei 
+                                <lb />debiti non si può fare un giusto apprezzamento,
+                                <lb />per la ineguaglianza dei criteri con cui si 
+                                <lb />tien conto in ciascun paese delle attività
+                                <lb />patrimoniali che equilibrano i debiti stessi
+                                <lb />facendo men gravi le loro conseguenze.
+
+                             </ab> 
+
+                         <ab facs="#p423_p5" xml:id="p423_par5" corresp="#c1_423">
+
+                                <lb />Tenendo conto soltanto di queste ultime notizie,
+                                <lb />i poichè la pubblicazione internazionale sugli
+                                <lb /><name type="org" ref="#ISTITUTI">Istituti di credito</name> non prende in esame le  
+                                <lb />le condizioni delle grandi <name type="org" ref="#BANCA">banche</name> d'<name type="country" ref="#it">Italia</name>, si
+                                <lb />può ricavare un solo ammaestramento ben corto.
+                                <lb />Ed è che inveruno Stato d'Europa le finanze 
+                                <lb />locali sdrucciolarono così rapidamnete sulla 
+                                <lb />china dei debiti, com'è accaduto in Italia.
+                                <lb />A parità di altre condizioni, non si ha esempi
+                                <lb />in alcun luogo degli ardimenti o della fiducia
+                                <lb />imprevidente onde hanno dato testimonianza
+                                <lb />taluni Municipi italiani. E l'ammaestramento
+                                <lb />è davvero significante.
+
+                            </ab> 
+
+                         <ab facs="#p423_p6" xml:id="p423_par6" corresp="#c1_423">
+
+                                <lb />Lo è tanto più che, a nostro avviso, la causa 
+                                <lb />dei fatti onde si muove così giusto lamento
+                                <lb />fra noi, dipende particolarmente da una 
+                                <lb />ripartizione non misurata degli uffici 
+                                <lb />amministrativi e da tendenze od indirizzi
+                                <lb />dello spirito pubblico che le leggi sono 
+                                <lb />impotenti a governare o a moderare.
+                                <lb />Speriamo che non sia lontano il giorno in 
+                                <lb />cui queste manifeste attinenze dei paesi
+                                <lb />finanziari colle attribuzioni amministrative
+                                <lb />dei corpi locali saranno più diligentemente
+                                <lb />studiate anche in Italia.
+
+                          </ab>
+                        </div>       
+                         <div type="entrata_bibliografica" n="2" part="I" corresp="#c2_423">
+                                <head rend="align(center) case(allcaps)" facs="#p423_title_2" xml:id="pag423_title_2" >
+                                    <lb />Scienze naturali. 
+                                </head>
+                                 <ab facs="#p423_bibl_2" xml:id="pag423_bibl_2">                                    
+                                    <bibl>
+                                        <lb />
+                                        <author>
+                                            <name>
+                                                <forename>M.S.</forename>
+                                                <surname>De Rossi</surname>
+                                            </name>
+                                        </author>
+                                        <title rend="italic">
+                                            La meteorologia endogena e la organizzazione degli osservatorii sismici in Italia.
+                                            <lb />
+                                            Italia
+                                        </title>.-
+                                        <pubPlace>Roma</pubPlace>,
+                                        <date when="1877">1878</date>
+                                    </bibl>
+                                </ab>
+                                <ab facs="#p423_p1_2" xml:id="p423_par1_2" part="I" >
+                                    <lb />L'A. chiama col nome di metereologia endogena il nuovo
+                                    <lb />metodo e la nuova organizzazione di ricerche sui 
+                                    <lb />fenomeni endogeni risultante dalla associazione
+                                    <lb />ed ordinamento degli studi di molti sotto una
+                                    <lb />forma finora non tentata, almeno sopra vasta scala.
+                                    <lb />Al fine di raccogliere il maggior numero possibile
+                                    <lb />di osservazioni, ossia di fatti in Italia,
+
+                                </ab>
+                                <ab facs="#p423_p2" xml:id="p423_par2">
+
+                                    <lb />il De Rossi procurò fin dal 1873 di organizzare una
+                                    <lb />una rete di corrispondenza, e nell'anno successivo 
+                                    <lb />fondò il Bollettino del Vulcanismo Italiano ben 
+                                    <lb />noto ai cultori di tale ordine di studi. Attendendo
+                                    <lb />egli pertanto alla redazione d'un lavoro inteso
+                                    <lb />ad additare le norme ed i mezzi sperimentali per 
+                                    <lb />organizzare le osservazioni e gli osservatorii
+                                    <lb />speciali in siffatta materia, mandò innanzi sotto
+                                    <lb />il titolo surriferito, un sunto, o per meglio dire, 
+                                    <lb />un programma dell'opera, della quale sta occupandosi.
+
+                                </ab>
+                                <ab facs="#p423_p3" xml:id="p423_par3">   
+
+                                    <lb />Nella serie dei fenomeni sottoposti ad esame, alcuni
+                                    <lb />costituiscono il gruppo delle manifestazioni dette 
+                                    <lb />vulcaniche, altri poi sono estranei a questo gruppo:
+                                    <lb />ma tale separazione è più convenzionale che reale:
+                                    <lb />perchè in natura tutte le forze e le azioni si 
+                                    <lb />sommano e si collegano in giuria da riuscire quasi
+                                    <lb />impossibile il determinare nellos tesso ordine di 
+                                    <lb />fatti la totale indipendenza dell'uno dall'altro.
+                                    <lb />Infatti il De Rossi, pur dividendo in quattro
+                                    <lb />specie i fenomeni endogeni, ne trova due spettare
+                                    <lb />all'ordine vulcanico e le altre due esserne 
+                                    <lb />separate, mentre dalla successiva analisi
+                                    <lb />apparisce che i non vulcanici talora si mostrano
+                                    <lb />aver parte nel vulcanismo, mentre i vulcanici
+                                    <lb />spiegano qualche azione ed influenza fra i fenomeni
+                                    <lb />non reputati vulcanici.
+
+                                </ab>
+                                <ab facs="#p423_p4" xml:id="p423_par4">  
+
+                                    <lb />Il terremoto ossia le agitazioni del suolo 
+                                    <lb />costituiscono la prima serie dei fenomeni endogeni
+                                    <lb />spettanti al gruppo dei vulcanici sembra al De Rossi
+                                    <lb /> costituita da fenomeni d'ordine eruttivo. La terza 
+                                    <lb />serie si forma colla circolazione delle acque, che è
+                                    <lb />giustamente considerata dallo Stoppani come una
+                                    <lb />manifestazione potentissima dei fenomeni endogeni.
+                                    <lb />Viene da ultimo il magnetismo terrestre, col quale 
+                                    <lb />i  meteorologisti connettono le aurore boreali.
+
+                                </ab>
+                                <ab facs="#p423_p5" xml:id="p423_par5">
+
+                                    <lb />Premessa questa classificazione, il De Rossi passa 
+                                    <lb />in rassegna le fasi geologico-meteorologiche del 
+                                    <lb />dinamismo tellurico in generale, studia le variazioni
+                                    <lb />di livello delle acque sorgive e quelle di 
+                                    <lb />temperatura delle termo-minerali ed indi entra in 
+                                    <lb />in pieno campo della sismologia, descrivendo alcuni
+                                    <lb />apparecchi sismografici e sismotrici.
+
+                                </ab>
+                                <ab facs="#p423_p6" xml:id="p423_par6">   
+
+                                    <lb />É assai interessante il quadro, che traccia l'A., 
+                                    <lb />degli studi italiani in argomento di terremoti,
+                                    <lb />essendo ben noto quanti valorosi cultori conti 
+                                    <lb />presso di noi questo ramo dello scibile, e come 
+                                    <lb />ancora presso di noi abbia avuto origine,
+                                    <lb />incremento e sviluppo la dottrina dei moti
+                                    <lb />microsismici, dalla quale non è troppo temerario
+                                    <lb />il ripromettersi la soluzione del gravissimo
+                                    <lb />problema relativo alla previsione dei terremoti.
+                                    <lb />ma perchè ciò sia possibile i mestieri che gli
+                                    <lb />osservatorii sismici e microsismici si 
+                                    <lb />moltiplichino in Italia, perciocchè allora
+                                    <lb />soltanto i fenomeni isolati potranno presentare 
+                                    <lb />nel loro insieme un complesso di fatti il quale 
+                                    <lb />valga a stabilire delle leggi. La via è tracciata.
+
+                                </ab>
+                            </div>    
+
+                            <cb xml:id="c2_424" n="2" corresp="#pb424"/>
+                            <div type="notizie"  org="uniform" sample="initial" corresp="#c2_424"> 
+                                <list rend="simple">
+                                    <head rend="align(center) case(allcaps)" facs="#p424_title" xml:id="pag424_title">
+                                        <lb />NOTIZIE 
+                                    </head>
+                                    <item facs="#p424_n1" xml:id="p424_nws1">
+                                        <lb />Gli articoli pubblicati negli ultimi fascicoli della Fortnightly Review
+                                        <lb />sopra Lord Beaconsfield sono attribuiti al professore Hodgson dell’Università
+                                        <lb />di Edimburgo. (Athenäum.)
+                                    </item>
+                                    <item facs="#p424_n2" xml:id="p424_nws2">
+                                        <lb />Nello scorso mese di marzo è morto a Heilbronn (Wiirtemberg)
+                                        <lb />Roberto Mayer, autore di una delle scoperte che hanno più potentemente
+                                        <lb />contribuito alla rivoluzione scientifica avvenuta in questo secolo.
+                                        <lb />Egli, nel 1847, formulò la legge dell’ equivalenza delle forze, secondo la
+                                        <lb />quale il movimento si trasforma in calorico, e reciprocamento il calorico
+                                        <lb />in movimento, la legge insomma dell’ equivalente meccanico del calore.
+                                        <lb />Era nato il 25 novembre 1814, ed era già da circa venti anni colpito
+                                        <lb />di alienazione mentale.
+                                    </item>    
+                                </list>
+                            </div>
+                        </div>
+                </div>    
+        </body>
+
+        <back>
+            <div>
+                <listPerson>
+                    <head>Elenco persone:</head>
+                    <person xml:id="de sanctis">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Francesco_De_Sanctis"/>
+                            <forename>Francesco</forename>
+                            <surname>De Sanctis</surname>
+                        </persName>
+                        <birth>
+                            <date when="1817-03-28">28/03/1817</date>
+                        </birth>
+                        <death>
+                            <date when="1883-12-29">29/12/1883</date>
+                        </death>
+                        <occupation>Politico</occupation>
+                    </person>
+
+                    <person xml:id="Körösi">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Joseph_Körösi"/>
+                            <forename>Joseph</forename>
+                            <surname>Körösi</surname>
+
+                        </persName>
+                        <birth>
+                            <date when="1811-06-16">16/06/1811</date>
+                        </birth>
+                        <death>
+                            <date when="1868-01-31">31/01/1868</date>
+                        </death>
+                        <occupation>Industriale</occupation>
+                    </person>
+
+                    <person xml:id="de rossi">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Stefano_Michele_De_Rossi"/>
+                            <forename>Stefano Michele</forename>
+                            <surname>De Rossi</surname>
+
+                        </persName>
+                        <birth>
+                            <date when="1834-10-30">30/10/1834</date>
+                        </birth>
+                        <death>
+                            <date when="1898-10-23">23/10/1898</date>
+                        </death>
+                        <occupation>geofisico</occupation>
+                    </person>
+
+                    <person xml:id="Hodgson">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/William_Ballantyne_Hodgson"/>
+                            <forename>William Ballantyne</forename>
+                            <surname>Hodgson</surname>
+
+                        </persName>
+                        <birth>
+                            <date when="1815-10-06">06/10/1815</date>
+                        </birth>
+                        <death>
+                            <date when="1880-08-24">24/08/1880</date>
+                        </death>
+                        <occupation>politico</occupation>
+                    </person>
+
+                    <person xml:id="Mayer">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Carlo_Blind"/>
+                            <forename>Roberto</forename>
+                            <surname>Mayer</surname>
+
+                        </persName>
+                        <birth>
+                            <date when="1814-11-25">25/11/1814</date>
+                        </birth>
+                        <death>
+                            <date when="1878-03-20">20/03/1878</date>
+                        </death>
+                        <occupation>fisico</occupation>
+                    </person>
+
+                    <person xml:id="Stoppani">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Antonio_Stoppani"/>
+                            <forename>Antonio</forename>
+                            <surname>Stoppani</surname>
+
+                        </persName>
+                        <birth>
+                            <date when="1824-08-15">15/08/1824</date>
+                        </birth>
+                        <death>
+                            <date when="1891-01-01">01/01/1891</date>
+                        </death>
+                        <occupation>geologo</occupation>
+                    </person>
+                </listPerson>
+
+                <listPlace>
+                    <head>Elenco luoghi:</head>
+
+                    <place xml:id="en" type="nation">
+                        <placeName>Inghilterra</placeName>
+                        <location>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+
+                    <place xml:id="it" type="nation">
+                        <placeName>Italia</placeName>
+                        <location>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+
+                    <place xml:id="na" type="city">
+                        <placeName>Napoli</placeName>
+                        <location>
+                            <country>Italia</country>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+
+                    <place xml:id="rm" type="city">
+                        <placeName>Roma</placeName>
+                        <location>
+                            <country>Italia</country>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+
+                    <place xml:id="hu-bu" type="city">
+                        <placeName>Budapest</placeName>
+                        <location>
+                            <country>Ungheria</country>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+
+                     <place xml:id="at" type="nation">
+                         <placeName>Austria</placeName>
+                         <location>
+                                <bloc>Europa</bloc>
+                            </location>
+                     </place>
+
+                    <place xml:id="be" type="nation">
+                        <placeName>Belgio</placeName>
+                        <location>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+
+                    <place xml:id="nl" type="nation">
+                        <placeName>Paesi Bassi</placeName>
+                        <location>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+
+                    <place xml:id="se" type="nation">
+                        <placeName>Svezia</placeName>
+                        <location>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+
+                    <place xml:id="no" type="nation">
+                        <placeName>Norvegia</placeName>
+                        <location>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+
+                    <place xml:id="eu" type="continent">
+                        <placeName>Europa</placeName>
+                    </place>
+
+                    <place xml:id="edi" type="city">
+                        <placeName>Edimburgo</placeName>
+                        <location>
+                            <country>Scozia</country>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+
+                    <place xml:id="hn" type="city">
+                        <placeName>Heilbronn</placeName>
+                        <location>
+                            <country>Germania</country>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+
+                    <place xml:id="hn" type="region">
+                        <placeName>Württemberg</placeName>
+                        <location>
+                            <country>Germania</country>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+
+                    <place xml:id="ca" type="square">
+                        <placeName>Campidoglio</placeName>
+                        <location>
+                            <country>Italia</country>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+
+                </listPlace>
+
+                 <listOrg>
+                    <org xml:id="CDM">
+                        <orgName>
+                            <name>Consiglio dei Ministri</name>
+                            <ref target="https://it.wikipedia.org/wiki/Consiglio_dei_Ministri"/>
+                        </orgName>
+                        <state type="governance" from="1948"></state>
+                    </org>
++
+                    <org xml:id="PAR">
+                        <orgName>
+                            <name>Parlamento</name>
+                            <ref target="https://it.wikipedia.org/wiki/Parlamento"/>
+                        </orgName>
+                        <state type="governance" from="1861"></state>
+                    </org>
+
+                    <org xml:id="GOV">
+                        <orgName>
+                            <name>Governo centrale</name>
+                            <ref target="https://it.wikipedia.org/wiki/Governo_centrale"/>
+                        </orgName>
+                        <state type="governance" from="1946"></state>
+                    </org>
+
+                    <org xml:id="COL">
+                        <orgName>
+                            <name>Collegio elettorale</name>
+                            <ref target="https://it.wikipedia.org/wiki/Collegio_elettorale"/>
+                        </orgName>
+                        <state type="governance" from="1848"></state>
+                    </org>
+
+                    <org xml:id="CIRC">
+                        <orgName>
+                            <name>Circoscrizione</name>
+                            <ref target="https://it.wikipedia.org/wiki/Circoscrizione"/>
+                        </orgName>
+                        <state type="governance" from="1848"></state>
+                    </org>
+
+                    <org xml:id="DEP">
+                        <orgName>
+                            <name>Deputazione provinciale</name>
+                            <ref target="https://it.wikipedia.org/wiki/Deputazione_provinciale"/>
+                        </orgName>
+                        <state type="governance" from="1860"></state>
+                    </org>
+
+                    <org xml:id="GOV">
+                        <orgName>
+                            <name>Governo parlamentare</name>
+                            <ref target="https://it.wikipedia.org/wiki/Governo_parlamentare"/>
+                        </orgName>
+                        <state type="governance" from="1848"></state>
+                    </org>
+
+                    <org xml:id="CAM">
+                        <orgName>
+                            <name>Camera</name>
+                            <ref target="https://it.wikipedia.org/wiki/Camera"/>
+                        </orgName>
+                        <state type="governance" from="1861"></state>
+                    </org>
+
+                    <org xml:id="SEG">
+                        <orgName>
+                            <name>Seggio</name>
+                            <ref target="https://it.wikipedia.org/wiki/Seggio"/>
+                        </orgName>
+                        <state type="governance" from="1919"></state>
+                    </org>
+
+                    <org xml:id="PART">
+                        <orgName>
+                            <name>Partito politico</name>
+                            <ref target="https://it.wikipedia.org/wiki/Partito_politico"/>
+                        </orgName>
+                        <state type="governance" from="1895"></state>
+                    </org>
+
+                    <org xml:id="UNI">
+                        <orgName>
+                            <name>Università</name>
+                            <ref target="https://it.wikipedia.org/wiki/Università"/>
+                        </orgName>
+                        <state type="governance" from="1088"></state>
+                    </org>
+
+                    <org xml:id="CS">
+                        <orgName>
+                            <name>Consiglio superiore</name>
+                            <ref target="https://it.wikipedia.org/wiki/Consiglio_superiore"/>
+                        </orgName>
+                        <state type="governance" from="1847"></state>
+                    </org>
+
+                    <org xml:id="CONGR">
+                        <orgName>
+                            <name>Congresso di statistica</name>
+                            <ref target="https://it.wikipedia.org/wiki/Congresso_di_statistica"/>
+                        </orgName>
+                        <state type="governance" from="1853"></state>
+                    </org>
+
+                    <org xml:id="UFF">
+                        <orgName>
+                            <name>Ufficio di statistica</name>
+                            <ref target="https://it.wikipedia.org/wiki/Ufficio_di_statistica"/>
+                        </orgName>
+                        <state type="governance" from="1859"></state>
+                    </org>
+
+                    <org xml:id="IST">
+                        <orgName>
+                            <name>Istituto di emissione</name>
+                            <ref target="https://it.wikipedia.org/wiki/Istituto_di_emissione"/>
+                        </orgName>
+                        <state type="governance" from="1893"></state>
+                    </org>
+
+                    <org xml:id="IST">
+                        <orgName>
+                            <name>Istituto di credito</name>
+                            <ref target="https://it.wikipedia.org/wiki/Istituto_di_credito"/>
+                        </orgName>
+                        <state type="governance" from="1407"></state>
+                    </org>
+
+                    <org xml:id="MUN">
+                        <orgName>
+                            <name>Municipio</name>
+                            <ref target="https://it.wikipedia.org/wiki/Municipio"/>
+                        </orgName>
+                        <state type="governance" from="1000"></state>
+                    </org>
+                </listOrg>
+
+
+                <listBibl>
+                    <bibl xml:id="Statistique internationale des grandes villes, première section, Mouvement de la population.">
+
+                        <title>Statistique internationale des grandes villes, première section, Mouvement de la population.</title>
+                        <author ref="#josephkörösi">Joseph Körösi</author>
+                        <date>1876</date>
+                        <ref target="https://it.wikipedia.org/wiki/"Statistique_internationale_des_grandes_villes,_première_section,_Mouvement_de_la_population/></ref>
+                    </bibl>
+
+                    <bibl xml:id="Statistique internationale des grandes villes, deuxième section, Statistique des finances.">
+
+                        <title>Statistique internationale des grandes villes, deuxième section, Statistique des finances.</title>
+
+                        <author ref="#josephkörösi">Joseph Körösi</author>
+                        <date>1878</date>
+                        <ref target="https://it.wikipedia.org/wiki/Statistique_internationale_des_grandes_villes,_deuxième_section,_Statistique_des_finances."></ref>
+                    </bibl>
+
+                    <bibl xml:id="Statistique des banques d’émission, Autriche-Hongrie, Belgique, Pays-Bas, Suède, Norvège.">
+
+                        <title>Statistique des banques d’émission, Autriche-Hongrie, Belgique, Pays-Bas, Suède, Norvège</title>
+                        <author ref="#josephkörösi">Joseph Körösi</author>
+                        <date>1878</date>
+                        <ref target="https://it.wikipedia.org/wiki/Statistique_des_banques_d’émission,_Autriche-Hongrie,_Belgique,_Pays-Bas,_Suède,_Norvège"></ref>
+                    </bibl>
+
+                    <bibl xml:id="Statistique internationale des Caisses d’épargne.">
+
+
+                        <title>Statistique internationale des Caisses d’épargne</title>
+
+                        <author ref="#luigibodio">Luigi Bodio</author>
+                        <date>1876</date>
+                        <ref target="https://it.wikipedia.org/wiki/Statistique_internationale_des_Caisses_d’épargne"></ref>
+                    </bibl>
+
+                    <bibl xml:id="La meteorologia endogena e la organizzazione degli osservatorii sismici in Italia.">
+
+
+
+                        <title>La meteorologia endogena e la organizzazione degli osservatorii sismici in Italia.</title>
+
+
+                        <author ref="#michelestefanoderossi">Michele Stefano De Rossi</author>
+                        <date>1879</date>
+                        <ref target="https://it.wikipedia.org/wiki/La_meteorologia_endogena_e_la_organizzazione_degli_osservatorii_sismici_in_Italia."></ref>
+                    </bibl>
+
+                    <bibl xml:id="Bullettino del Vulcanismo Italiano.">
+
+
+
+                        <title>Bullettino del Vulcanismo Italiano.</title>
+
+
+                        <author ref="#michelestefanoderossi">Michele Stefano De Rossi</author>
+                        <date>1882</date>
+                        <ref target="https://it.wikipedia.org/wiki/Bullettino_del_Vulcanismo_Italiano."></ref>
+                    </bibl>
+                 </listBibl>
+            </div>
+            
+        </back>
+       </text>
+</TEI>
+
+
